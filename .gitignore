@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor
+.vscode/
+.idea/
+.obsidian/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & temp files
+*.log
+tmp/
+temp/
+
+# Claude Code local settings (personal, not shared)
+.claude/settings.local.json
+
+# Node (in case scripts/tools get added later)
+node_modules/
+
+# Python (in case scripts/tools get added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
