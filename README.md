@@ -13,7 +13,7 @@
 3. **複習**：AI 讀 `review-log.md`，優先挑從沒考過、答錯過、最久沒複習的表達來考我，避免練完新的就忘了舊的。
 4. **修正**：我自己寫的日文請 AI 改，反覆出現的錯誤類型記進 `mistakes.md`，慢慢看出自己的 pattern。
 
-實際的 AI 互動規則寫在 [`CLAUDE.md`](./CLAUDE.md)（唯一規則來源，`AGENTS.md` 只指向它）。
+實際的 AI 互動規則寫在 [`AGENTS.md`](./AGENTS.md)（唯一規則來源，`CLAUDE.md` 只匯入它）。
 
 ## 筆記怎麼記
 
@@ -41,8 +41,8 @@
 
 ```
 .
-├── CLAUDE.md          # AI 指示檔（唯一規則來源）
-├── AGENTS.md          # 指向 CLAUDE.md
+├── AGENTS.md          # AI 指示檔（唯一規則來源）
+├── CLAUDE.md          # 匯入 AGENTS.md（給 Claude Code 用）
 ├── README.md          # 這份文件
 ├── review-log.md      # 複習紀錄
 ├── mistakes.md        # 錯誤日誌
@@ -58,5 +58,5 @@
 
 1. 在專案根目錄開 Claude Code。
 2. 貼上想記的台詞或講法，請它幫忙整理成筆記格式並解釋語感。
-3. 想練習時直接說「幫我造句練習」、「來練 1 分鐘あらすじ」或「複習」，AI 會依 `CLAUDE.md` 裡的規則出題。
+3. 想練習時直接說「幫我造句練習」、「來練 1 分鐘あらすじ」或「複習」，AI 會依 `AGENTS.md` 裡的規則出題。
 4. 想被改日文時，直接貼上自己寫的內容，AI 會回饋並更新 `mistakes.md`。
