@@ -69,7 +69,7 @@
 ├── review-log.md      # 複習紀錄（AI 在複習後追加）
 ├── mistakes.md        # 錯誤日誌（AI 在改句後追加）
 ├── emoji.md           # 表情符號複製用的參考連結
-├── posts/             # 我發出去的貼文（企劃、文案、照片），不是筆記，不當題庫
+├── posts/             # 我發出去的貼文（企画、文案、照片），不是筆記，不當題庫
 │   └── YYYYMMDD_主題/
 ├── slides/            # 預留給之後可能做的簡報，目前是空的（只有 .gitkeep），不當題庫
 ├── drama/             # 日劇、綜藝的台詞筆記
@@ -135,7 +135,7 @@
 
 ### `posts/`
 
-- 我自己發出去的貼文（Discord、Instagram story 等），一個主題一個資料夾，內含企劃／文案／`photos/`
+- 我自己發出去的貼文（Discord、Instagram story 等），一個主題一個資料夾，內含企画／文案／`写真/`
 - 不是筆記，**不進複習題庫**
 - 資料夾與檔案格式以 `posts/.claude/skills/posts-format/SKILL.md` 為準，新增、改名、檢查時照那份做，規則不在這裡重複
 
