@@ -135,7 +135,7 @@
 
 ### `posts/`
 
-- 我自己發出去的貼文（Discord、Instagram story 等），一個主題一個資料夾，內含企画／文案／`写真/`
+- 我自己發出去的貼文（Discord、Instagram story 等），一個主題一個資料夾，內含企画／文案／`photos/`
 - 不是筆記，**不進複習題庫**
 - 資料夾與檔案格式以 `posts/.claude/skills/posts-format/SKILL.md` 為準，新增、改名、檢查時照那份做，規則不在這裡重複
 
