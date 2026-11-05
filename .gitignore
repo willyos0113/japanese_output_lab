@@ -26,7 +26,7 @@ temp/
 .claude/settings.local.json
 
 # Private DMs (contain other people's messages, keep local only)
-instagram/dm.md
+input/instagram/dm.md
 
 # Node (in case scripts/tools get added later)
 node_modules/
